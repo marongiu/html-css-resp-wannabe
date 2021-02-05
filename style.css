@@ -91,6 +91,11 @@ img {
     padding-top: 15px;
   }
 /* Eliminazione float e ridimensionamento */
+
+img {
+  height: 100px;
+}
+
 .row {
   width: 100%;
   margin: 0 auto;
