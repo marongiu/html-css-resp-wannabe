@@ -117,18 +117,14 @@ img {
 
 /* Sezione steps */
 
-#steps {
-}
 
-/* Sezione why */
-#why .row>.first,
-#why .row>.second,
-#why .row>.third {
-  width: 100%;
-  margin: 0;
-  padding-top: 4%;
-}
-
-
+  /* Sezione why */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 100%;
+    margin: 0;
+    padding-top: 4%;
+  }
 
 }
