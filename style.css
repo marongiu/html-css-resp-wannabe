@@ -88,7 +88,6 @@ img {
   }
 
   #lezioni {
-    padding-top: 15px;
   }
 /* Eliminazione float e ridimensionamento */
 
@@ -96,31 +95,28 @@ img {
   height: 100px;
 }
 
+
 .row {
-  width: 100%;
+  width: 80%;
   margin: 0 auto;
-  padding-top: 10px;
 }
 
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    width: 420px;
     float: none;
-    padding: 15px 5px;
+    width: 100%
   }
 
   #lezioni .row>.left,
   #lezioni .row>.right {
     float: none;
-    width: 420px;
-    padding: 15px 10px;
+    width: 100%;
   }
 
 /* Sezione steps */
 
 #steps {
-  padding-top: 10px;
 }
 
 /* Sezione why */
@@ -128,8 +124,6 @@ img {
 #why .row>.second,
 #why .row>.third {
   width: 100%;
-  margin-top: 20px;
-  padding: 0 10px;
 }
 
 
