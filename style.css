@@ -93,20 +93,14 @@ img {
   height: 80px;
 }
 
-
+/* Riduzione row */
 .row {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding: 3% 0%;
 }
 
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right {
-    float: none;
-    width: 100%;
-    margin-top: 5%;
-  }
+/* Sezione lezioni */
 
   #lezioni .row>.left,
   #lezioni .row>.right {
@@ -117,6 +111,13 @@ img {
 
 /* Sezione steps */
 
+#steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: none;
+  width: 100%;
+  margin-top: 5%;
+}
 
   /* Sezione why */
   #why .row>.first,
